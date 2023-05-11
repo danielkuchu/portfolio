@@ -1,0 +1,57 @@
+h1 {
+
+text-align: center;
+
+}
+
+header {
+
+    margin: auto;
+display: flex;
+
+}
+
+nav {
+
+display: flex;
+margin: auto;
+padding: 100px;
+
+}
+
+nav ul li a {
+
+text-decoration: none;
+color: black;
+
+}
+
+nav ul li  {
+
+    list-style: none;
+    padding-right: 100px;
+    
+    }
+
+    nav ul {
+
+display: flex;
+
+    }
+
+    #intro {
+
+margin: auto;
+text-align: center;
+        max-width: none;
+        height: 600px;
+        box-shadow: 0 0 15px 1px rgb(185, 185, 185);
+        font-size: 30px;
+
+    }
+
+    #intro p {
+
+transform: translateY(200px);
+
+    }
