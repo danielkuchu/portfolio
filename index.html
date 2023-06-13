@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,30 +11,123 @@
     <!--  Normalized CSS  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
     <title>Home</title>
 </head>
+
 <body>
 
     <header>
 
-        <nav>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">ux/ui</a></li>
-            <li><a href="">code</a></li>
-            <li><a href="">about me</a></li>
-            <li><a href="">resume</a></li>
-        </ul>
-      </nav>    
+        <div id="homeBtn">
+            <h1><a href="index.html">Daniel Ramos</a></h1>
+        </div>
+
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li><a href="#uiux">ux/ui</a></li>
+                    <li><a href="#code">code</a></li>
+                    <li><a href="about/about.html">about</a></li>
+                    <li><a href="resume/resume.html">resume</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
-    <section id="intro">
+    <article id="main">
+        <section id="intro">
 
-        <p>Hello, my name is <strong>Daniel Ramos!</strong></p>
-        <p>I am a 4th-year Design major at Univeristy of California, Davis. I currently am a product designer for AggieWorks and Ouros Industries.</p>
+            <div id="introContent">
+                <p>Hello, my name is <strong>Daniel Ramos!</strong></p>
+                <p>I am a UC Davis alumni, and I currently am a <br>product designer for AggieWorks and Ouros Industries.</p>
+                <button href="#">Button</button>
+            </div>
+        </section>
 
-    </section>
-    
+        <section id="uiux">
+            <h2>Product Design</h2>
+
+            <div class="workSection">
+                <div>
+                <h3>Ouros Collect</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+            <div class="workSection">
+                <div>
+                <h3>Ouros Cloud Closet</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+            <div class="workSection">
+                <div>
+                <h3>Blulight</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+            <div class="workSection">
+                <div>
+                <h3>ReciMe</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+            <div class="workSection">
+                <div>
+                <h3>SchedGo</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+
+        </section>
+
+        <section id="code">
+            <h2>My Code</h2>
+
+            <div class="workSection">
+                <div>
+                <h3>JavaScript Pokemon</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+
+            <div class="workSection">
+                <div>
+                <h3>Hogwarts Adventure Madlibs</h3>
+                <p>Description</p>
+                <button href="#">Button</button>
+            </div>
+                <img src="#">
+            </div>
+        </section>
+
+    </article>
+
 </body>
+
 </html>
