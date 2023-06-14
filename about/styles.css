@@ -1,0 +1,66 @@
+ /* Header Styling */
+
+ header {
+
+    margin: auto;
+    display: block;
+    flex-direction: row;
+    clear: none;
+
+}
+
+header h1 {
+
+    transform: translateY(50px);
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header nav {
+
+    float: right;
+    clear: none;
+
+}
+
+header h1 {
+
+    margin-left: 50px ;
+
+}
+
+
+nav ul{
+
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+
+    margin-right: 70px;
+
+}
+
+nav ul li a:hover {
+
+    color: rgb(255, 75, 75);
+
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/* General Styling */
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+}
